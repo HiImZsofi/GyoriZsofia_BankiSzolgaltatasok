@@ -8,6 +8,10 @@ public class Szamla extends BankiSzolgaltatas {
         super(tulajdonos);
     }
 
+    public int getAktualisEgyenleg() {
+        return aktualisEgyenleg;
+    }
+
     public void befizet(int osszeg){
         this.aktualisEgyenleg += osszeg;
     }
